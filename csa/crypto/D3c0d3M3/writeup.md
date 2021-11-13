@@ -3,7 +3,7 @@
 
 ## Intro
 As the challenge name suggests, this is a decoding challenge.
-To achieve to challenge's flage, we have to decode an encoded message, according to a given sequence of steps.
+To capture the challenge's flag, we have to decode an encoded message, according to a given sequence of steps.
 
 I will demonstrate the process of decoding I've done using `python` programming language.
 
