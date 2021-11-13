@@ -69,7 +69,7 @@ The `codecs` module will provide us with the function to do so.
 TypeError: decoding with 'rot13' codec failed (TypeError: descriptor 'translate' for 'str' objects doesn't apply to a 'bytes' object)
 ```
 
-Oops! `codecs.decode` raised a `TypeError` when we sent it `bytes`... let's send it `str` using `bytes.decoded` function.
+Oops! `codecs.decode` raised a `TypeError` when is given `bytes` as input... let's give it `str` using `bytes.decoded` function.
 
 ```
 > codecs.decode(bitwise_xor(b32decode(encoded_message), bytes.fromhex('CC55AA')).decoded(), 'rot13')
