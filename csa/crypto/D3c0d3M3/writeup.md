@@ -1,4 +1,4 @@
-# D3c0d3M3
+#   
 ![challenge](challenge.png)
 
 ## Intro
@@ -54,7 +54,7 @@ Now let's wrap that with a function to split our message into lK `block`s
 To finish
 ```
 > bitwise_xor(b32decode(encoded_message), bytes.fromhex('CC55AA'))
------------------safdafasdf
+b'}\x00?\x00T\x00a\x00v\x00Q\x000\x00P\x003\x00Q\x00_\x00A\x00h\x00S\x00_\x00t\x00a\x00v\x00i\x00@\x00U\x00{\x00N\x00F\x00P\x00'
 ```
 
 ## Step 3
