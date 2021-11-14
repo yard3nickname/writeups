@@ -26,7 +26,7 @@ b'\xb1U\x95\xcc\x01\xaa\xadU\xdc\xcc\x04\xaa\xfcU\xfa\xccf\xaa\x9dU\xf5\xcc\x14\
 ## Step 2
 The second step is going to be `bitwise-XOR` of the previous output with `CC55AA`.
 
-First, we have to understand that `CC55AA` is in hex represantation, so to read it properly we have to use a proper method to convert a hex-like str to byets
+First, we have to understand that `CC55AA` is in hex represantation, so to read it properly we have to use a proper method to convert a hex-like `str` to `byets`
 ```
 > bytes.fromhex('CC55AA')
 b'\xccU\xaa'
